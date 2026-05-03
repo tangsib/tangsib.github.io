@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Portfolio</h1>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#hero">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#blog">Blog</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-left">
+        <div class="avatar" aria-hidden="true">TS</div>
+      </div>
+      <div class="hero-right">
+        <h2 class="name">Your Full Name</h2>
+        <p class="nickname">Nickname: <strong>Tangsib</strong></p>
+        <p class="email">Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p class="hero-intro">A concise, modern frontend portfolio template made with plain HTML, CSS, and JavaScript.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h3>Contact Info</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Phone</h4>
+          <p>+66 00 000 0000</p>
+        </div>
+        <div class="card">
+          <h4>Address</h4>
+          <p>Bangkok, Thailand</p>
+        </div>
+        <div class="card">
+          <h4>Social</h4>
+          <p><a href="#">Facebook</a> · <a href="#">Twitter</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <h3>Education</h3>
+      <ul class="education-list">
+        <li>
+          <span class="year">2016 - 2020</span>
+          <div class="edu-body">
+            <strong>University Name</strong>
+            <div>GPA: 3.75</div>
+          </div>
+        </li>
+        <li>
+          <span class="year">2013 - 2015</span>
+          <div class="edu-body">
+            <strong>College / High School</strong>
+            <div>GPA: 3.90</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section container">
+      <h3>Skills & Languages</h3>
+      <div class="skills-grid">
+        <div>
+          <h4>Skills</h4>
+          <ul class="skills-list">
+            <li>Photography</li>
+            <li>Singing</li>
+            <li>Playing music</li>
+            <li>Programming</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <ul class="languages-list">
+            <li>Thai (Native)</li>
+            <li>English (Fluent)</li>
+            <li>Chinese (Basic)</li>
+            <li>Japanese (Basic)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <h3>Experience & Activities</h3>
+      <ul class="activities-list">
+        <li>
+          <span class="year">2023</span>
+          <div class="activity-body">
+            <strong>Photography Exhibition</strong>
+            <p>A short description of the exhibition or project.</p>
+          </div>
+        </li>
+        <li>
+          <span class="year">2021</span>
+          <div class="activity-body">
+            <strong>Open-source Project</strong>
+            <p>Contributed features to a small project.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="blog" class="section container">
+      <h3>Blog</h3>
+      <div class="blog-list">
+        <article class="post">
+          <h4>Short Article Title</h4>
+          <p class="meta">May 2026 · 3 min read</p>
+          <p>Short excerpt of the article to give readers an idea of the content.</p>
+        </article>
+        <article class="post">
+          <h4>Another Post</h4>
+          <p class="meta">Apr 2026 · 2 min read</p>
+          <p>Another short excerpt for the second post.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Full Name — Built with plain HTML, CSS, and JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
