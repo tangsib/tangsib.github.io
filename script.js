@@ -48,6 +48,8 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 
   avatar && avatar.addEventListener('click', openModal);
+  // Also attach to the image itself in case events target the <img>
+  avatarImg && avatarImg.addEventListener('click', openModal);
   modalClose && modalClose.addEventListener('click', closeModal);
   modal && modal.addEventListener('click', function(e){
     if(e.target && e.target.dataset && e.target.dataset.close) closeModal();
