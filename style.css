@@ -119,7 +119,7 @@ html{ scroll-behavior: smooth; }
 .modal-overlay{ position:absolute; inset:0; background: rgba(100,100,100,0.45); backdrop-filter: blur(4px); }
 /* Frameless modal: panel is transparent, image has rounded corners and shadow */
 .modal-panel{ position:relative; z-index:2; width: min(90vw, 560px); background: transparent; border-radius:0; padding:0; box-shadow: none; }
-.modal-img{ display:block; width:100%; height:auto; border-radius:14px; box-shadow: 0 20px 50px rgba(0,0,0,0.35); }
+.modal-img{ display:block; width:auto; max-width: min(90vw, 560px); max-height: calc(100vh - var(--header-height) - 48px); object-fit: contain; margin:0 auto; border-radius:14px; box-shadow: 0 20px 50px rgba(0,0,0,0.35); }
 .modal-close{ position:absolute; top:10px; right:10px; width:36px; height:36px; border-radius:50%; border:0; background: rgba(255,255,255,0.95); box-shadow:0 6px 14px rgba(0,0,0,0.12); font-size:18px; cursor:pointer; }
 .modal-close:focus{ outline:2px solid var(--blue-500); }
 
